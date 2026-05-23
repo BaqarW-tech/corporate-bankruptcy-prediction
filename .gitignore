@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files
+data/raw/
+data/processed/
+*.csv
+!portfolio_template.csv
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Charts / outputs (generated at runtime)
+*.png
+*.pdf
+model_comparison.png
+roc_curves.png
+shap_analysis.png
+sukuk_feature_importance.png
+z_score_distribution.png
+
+# Models (large files)
+*.pkl
+*.joblib
+*.h5
